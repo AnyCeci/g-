@@ -1,0 +1,115 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	
+	int nota = 0;
+	
+	cout << "Ingrese la nota que obtuvo: ";
+	cin >> nota;
+	
+	if (nota > 100 || nota < 0){
+		cout <<"Ingrese una nota entre  0 -100";
+		return 0;
+	} else {	if (nota >= 96 && nota <= 100) {
+		cout << "Obtuviste una A++";
+		} else {
+		if (nota >= 94 && nota <= 95){
+		cout << "Obtuviste una A+";
+	} else { 
+		if (nota >= 86 && nota <= 90){
+		cout << "Obtuviste una A";
+	} else {
+		
+	if (nota >= 80 && nota <= 84){
+		cout << "Obtuviste una A-";
+	} else {
+		if (nota >= 79 && nota <= 75){
+		cout << "Obtuviste una B+";
+	} else {
+		
+		if (nota >= 74 && nota <= 70){
+		cout << "Obtuviste una B-";	
+	} else {
+			if (nota >= 69 && nota <= 60){
+		cout << "Obtuviste una C+";
+		
+	} else {
+		
+		if (nota >= 59 && nota <= 55){
+		cout << "Obtuviste una C";
+	} else {
+		
+		if (nota >= 54 && nota <= 50){
+		cout << "Obtuviste una C-";
+	} else {
+		
+		if (nota >= 49 && nota <= 45){
+		cout << "Obtuviste una D+";
+	} else {
+		if (nota >= 44 && nota <= 40){
+		cout << "Obtuviste una D";
+	} else {
+		if (nota >= 39 && nota <= 35){
+		cout << "Obtuviste una D-";
+	} else {
+			if (nota >= 34 && nota <= 30){
+		cout << "Obtuviste una E+";
+	} else {
+			if (nota >= 29 && nota <= 25){
+		cout << "Obtuviste una E";
+	} else {
+		if (nota >= 24 && nota <= 20){
+		cout << "Obtuviste una E-";
+	} else {
+		
+		if (nota >= 19 && nota <= 15){
+		cout << "Obtuviste una F+";
+	} else {
+		if (nota >= 14 && nota <= 10){
+		cout << "Obtuviste una F";
+	} else {
+			if (nota >= 9 && nota <= 5){
+		cout << "Obtuviste una F-";
+	} else {
+			if (nota >= 5 && nota <= 0){
+		cout << "Obtuviste una F--";
+	}
+	}
+	
+	}
+	}
+	}
+	}
+	}
+	}
+	}
+	}
+	}
+	
+	}
+	}
+		}
+	
+		}
+	}
+		
+
+	
+	}
+	
+	
+	}
+	
+	
+	
+	}
+	
+		
+	}
+	
+	
+	
+	return 0;
+}
