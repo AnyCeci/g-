@@ -1,0 +1,27 @@
+#include <iostream>
+ #include <ctime>                                      
+ #include <cstdlib>                                   
+  
+using namespace::std;
+   int main()
+   {                
+    srand( time( 0 ) ); 
+
+    cout <<"\n\nLanzamiento de 3600 jugadas: " << endl;
+    int lanzamiento;
+    int Frecuencia[13] = {0};                         
+
+    for ( int i = 1; i <= 3600; i++ )
+      {                                                 // ABRE FOR
+       lanzamiento = ( 1 + rand() % 6 ) + (1 + rand() % 6 );  
+       Frecuencia[lanzamiento]++;  
+
+      }                  
+
+    for ( int n = 2; 12 >= n; n++ ) 
+    
+    cout <<"\nLa frecuencia de " << n << " es: " << Frecuencia[n];
+    cout << endl;
+    return 0;
+
+   }         
